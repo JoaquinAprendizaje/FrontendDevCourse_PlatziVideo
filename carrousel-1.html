@@ -9,6 +9,7 @@
 <style>
     body {
         margin: 0;
+        font-family: 'Muli', sans-serif;
     }
     .carousel {
         width: 100%;
@@ -64,9 +65,25 @@
         left: 0;
         right: 0;
         bottom: 0;
+
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
     } 
     .carousel-item__details:hover {
         opacity: .8;
+    }
+    .carousel-item__details img {
+        width: 10%;
+    }
+    .carousel-item__details--title {
+        color: white;
+    }
+    .carousel-item__details--subtitle {
+        color: white;
+    }
+    .carousel-item__details p {
+        margin: 0;
     }
 </style>
 <body>
@@ -87,6 +104,6 @@
             <div class="carousel-item">
             </div>
         </div>
-    </sectionc>
+    </section>
 </body>
 </html>

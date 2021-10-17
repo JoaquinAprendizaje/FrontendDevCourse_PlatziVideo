@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img tabindex="0" class="header__img" src="../img/logo-platzi-video-BW2.png" alt="Logo de Platzi Video">
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2 tabindex="0">Inicia Sesión</h2>
+            <form class="login__container__form" action="">
+                <input aria-label="Campo login: Ingresar Correo" class="input" type="text" placeholder="Correo">
+                <input aria-label="Campo login: Ingresar Contraseña" class="input" type="password" placeholder="Contraseña">
+                <button aria-label="Botón para Iniciar Sesión" class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label for="">
+                        <input aria-label="Checkbox para no olvidar al usuario después de salir" type="checkbox" id="cbox1" value="checkbox"> Recuérdame
+                    </label>
+                    <a aria-label="Olvidé mi contraseña: Link para cambiar la contraseña" href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container__social-media">
+                <div> <img src="./assets/google-icon.png" alt="Google Logo"> Inicia sesión con Google </div>
+                <div> <img src="./assets/twitter-icon.png" alt="Twitter Logo"> Inicia Sesión con Twitter </div>
+            </section>
+            <p class="login__container__register">¿No tienes ninguna cuenta? <a aria-label="Registrate: Link para ir a la página de registro" href="/">Registrate</a></p>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+
+    </footer>
+</body>
+</html>
